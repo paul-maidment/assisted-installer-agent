@@ -3,7 +3,7 @@ module github.com/openshift/assisted-installer-agent
 go 1.16
 
 require (
-	github.com/go-openapi/strfmt v0.21.1
+	github.com/go-openapi/strfmt v0.21.3
 	github.com/go-openapi/swag v0.19.15
 	github.com/google/uuid v1.3.0
 	github.com/hashicorp/go-multierror v1.1.0
@@ -18,8 +18,7 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.7.0
 	github.com/ssgreg/journald v1.0.0
-	github.com/stretchr/objx v0.3.0 // indirect
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.8.0
 	github.com/thoas/go-funk v0.9.1
 	github.com/vishvananda/netlink v1.1.0
 	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c
